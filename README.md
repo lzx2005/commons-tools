@@ -10,13 +10,13 @@
 
 ## todos
 
--[X] 常用Service层返回类，构造方法，Builder类，Register方法。
+- [X] 常用Service层返回类，构造方法，Builder类，Register方法。
 
--[ ] 文件读取工具包
+- [ ] 文件读取工具包
 
--[ ] 数字计算包
+- [ ] 数字计算包
 
--[ ] 排序包
+- [ ] 排序包
 
 ## features
 
