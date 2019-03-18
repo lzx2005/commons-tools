@@ -33,7 +33,25 @@
 
 #### 数字数学相关
 - com.lzx2005.math.ConvertRadix : 10位数字与N位数字互相转换工具
-- com.lzx2005.math.MathExpressionCalculator : 根据字符串公式表达式计算值
+- com.lzx2005.math.MathExpressionCalculator : 根据字符串公式表达式计算值 [Docs](https://github.com/lzx2005/commons-tools/blob/master/docs/MathExpressionCalculator.md)
+
+引入包
+```java
+import com.lzx2005.math.MathExpressionCalculator;
+```
+
+1. 幂运算
+
+```java
+String exp = "a^b";
+HashMap<String, Double> map = new HashMap<>();
+map.put("a", 2.0);
+map.put("b", 10.0);
+Double evaluate = MathExpressionCalculator.evaluate(exp, map);
+System.out.println(exp + " = " + evaluate);
+
+--> a^b = 1024.0
+```
 
 #### 接口调用相关
 - com.lzx2005.apicaller.TaobaoIpQueryer : 快速调用淘宝IP地理位置查询API
