@@ -31,9 +31,31 @@
 #### 常用枚举
 - com.lzx2005.constants.BrowserType : User-Agent中浏览器对应的中文名枚举
 
+```java
+import com.lzx2005.constants.BrowserType;
+
+BrowserType browserType = BrowserType.valueOf("Chrome");
+System.out.println(browserType.getName());
+
+--> 谷歌浏览器
+```
+
+
+- com.lzx2005.constants.ChinaIdCardPrefixMap : 中国身份证开头与城市对应表
+
+```java
+import com.lzx2005.constants.ChinaIdCardPrefixMap;
+
+String city = ChinaIdCardPrefixMap.getProvinceCityByCode("310000");
+System.out.println(city);
+
+--> 上海市
+```
+
 #### 数字数学相关
 - com.lzx2005.math.ConvertRadix : 10位数字与N位数字互相转换工具
 - com.lzx2005.math.MathExpressionCalculator : 根据字符串公式表达式计算值 
+
 
 ```java
 import com.lzx2005.math.MathExpressionCalculator;
