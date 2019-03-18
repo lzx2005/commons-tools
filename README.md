@@ -33,6 +33,7 @@
 
 #### 数字数学相关
 - com.lzx2005.math.ConvertRadix : 10位数字与N位数字互相转换工具
+- com.lzx2005.math.MathExpressionCalculator : 根据字符串公式表达式计算值
 
 #### 接口调用相关
 - com.lzx2005.apicaller.TaobaoIpQueryer : 快速调用淘宝IP地理位置查询API
