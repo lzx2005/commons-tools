@@ -20,4 +20,19 @@
 
 ## features
 
-1. TBD
+目前已完成的功能如下：
+
+#### 常规功能包
+- com.lzx2005.common.CommonUtils : 快速调用包，包括调换数组中的数字等
+
+#### 字符串相关
+- com.lzx2005.string.StringUtilsExt : 多字符串判断空
+
+#### 常用枚举
+- com.lzx2005.constants.BrowserType : User-Agent中浏览器对应的中文名枚举
+
+#### 数字数学相关
+- com.lzx2005.math.ConvertRadix : 10位数字与N位数字互相转换工具
+
+#### 接口调用相关
+- com.lzx2005.apicaller.TaobaoIpQueryer : 快速调用淘宝IP地理位置查询API
