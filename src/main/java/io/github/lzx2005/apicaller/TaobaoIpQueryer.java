@@ -1,4 +1,4 @@
-package com.lzx2005.apicaller;
+package io.github.lzx2005.apicaller;
 
 import com.alibaba.fastjson.JSONObject;
 import org.apache.http.HttpEntity;

@@ -1,4 +1,4 @@
-package com.lzx2005.draw;
+package io.github.lzx2005.draw;
 
 public class TreeDrawer {
 

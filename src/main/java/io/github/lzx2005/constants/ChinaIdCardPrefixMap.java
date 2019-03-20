@@ -1,4 +1,4 @@
-package com.lzx2005.constants;
+package io.github.lzx2005.constants;
 
 import java.util.HashMap;
 import java.util.Map;

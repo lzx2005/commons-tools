@@ -1,4 +1,4 @@
-package com.lzx2005.string;
+package io.github.lzx2005.string;
 
 import org.apache.commons.lang.StringUtils;
 

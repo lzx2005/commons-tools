@@ -23,16 +23,16 @@
 目前已完成的功能如下：
 
 #### 常规功能包
-- com.lzx2005.common.CommonUtils : 快速调用包，包括调换数组中的数字等
+- CommonUtils : 快速调用包，包括调换数组中的数字等
 
 #### 字符串相关
-- com.lzx2005.string.StringUtilsExt : 多字符串判断空
+- StringUtilsExt : 多字符串判断空
 
 #### 常用枚举
-- com.lzx2005.constants.BrowserType : User-Agent中浏览器对应的中文名枚举
+- BrowserType : User-Agent中浏览器对应的中文名枚举
 
 ```java
-import com.lzx2005.constants.BrowserType;
+import BrowserType;
 
 BrowserType browserType = BrowserType.valueOf("Chrome");
 System.out.println(browserType.getName());
@@ -41,10 +41,10 @@ System.out.println(browserType.getName());
 ```
 
 
-- com.lzx2005.constants.ChinaIdCardPrefixMap : 中国身份证开头与城市对应表
+- ChinaIdCardPrefixMap : 中国身份证开头与城市对应表
 
 ```java
-import com.lzx2005.constants.ChinaIdCardPrefixMap;
+import ChinaIdCardPrefixMap;
 
 String city = ChinaIdCardPrefixMap.getProvinceCityByCode("310000");
 System.out.println(city);
@@ -53,12 +53,12 @@ System.out.println(city);
 ```
 
 #### 数字数学相关
-- com.lzx2005.math.ConvertRadix : 10位数字与N位数字互相转换工具
-- com.lzx2005.math.MathExpressionCalculator : 根据字符串公式表达式计算值 
+- ConvertRadix : 10位数字与N位数字互相转换工具
+- MathExpressionCalculator : 根据字符串公式表达式计算值 
 
 
 ```java
-import com.lzx2005.math.MathExpressionCalculator;
+import MathExpressionCalculator;
 
 String exp = "a^b";
 HashMap<String, Double> map = new HashMap<>();
@@ -72,4 +72,4 @@ System.out.println(exp + " = " + evaluate);
 [MathExpressionCalculator完整使用文档](https://github.com/lzx2005/commons-tools/blob/master/docs/MathExpressionCalculator.md)
 
 #### 接口调用相关
-- com.lzx2005.apicaller.TaobaoIpQueryer : 快速调用淘宝IP地理位置查询API
+- TaobaoIpQueryer : 快速调用淘宝IP地理位置查询API

@@ -1,6 +1,6 @@
-package com.lzx2005.sort;
+package io.github.lzx2005.sort;
 
-import com.lzx2005.common.CommonUtils;
+import io.github.lzx2005.common.CommonUtils;
 
 import java.util.Arrays;
 import java.util.Random;

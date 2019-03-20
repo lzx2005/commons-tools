@@ -1,4 +1,4 @@
-package com.lzx2005.math;
+package io.github.lzx2005.math;
 
 import java.util.Stack;
 

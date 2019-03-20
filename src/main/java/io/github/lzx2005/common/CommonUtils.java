@@ -1,4 +1,4 @@
-package com.lzx2005.common;
+package io.github.lzx2005.common;
 
 public class CommonUtils {
 

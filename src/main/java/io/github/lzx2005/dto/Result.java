@@ -1,4 +1,4 @@
-package com.lzx2005.dto;
+package io.github.lzx2005.dto;
 
 public class Result<T> {
 

@@ -23,7 +23,7 @@ MathExpressionCalculator公式计算器
 
 引入包
 ```java
-import com.lzx2005.math.MathExpressionCalculator;
+import MathExpressionCalculator;
 ```
 
 1. 幂运算

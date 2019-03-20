@@ -1,4 +1,4 @@
-package com.lzx2005.math;
+package io.github.lzx2005.math;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
