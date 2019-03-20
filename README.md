@@ -28,11 +28,20 @@
 #### 字符串相关
 - StringUtilsExt : 多字符串判断空
 
+```java
+import io.github.lzx2005.string.StringUtilsExt;
+
+boolean hasEmpty = StringUtilsExt.hasEmpty("a","","c");
+System.out.println(hasEmpty);
+
+--> true
+```
+
 #### 常用枚举
 - BrowserType : User-Agent中浏览器对应的中文名枚举
 
 ```java
-import BrowserType;
+import io.github.lzx2005.constants.BrowserType;
 
 BrowserType browserType = BrowserType.valueOf("Chrome");
 System.out.println(browserType.getName());
@@ -44,7 +53,7 @@ System.out.println(browserType.getName());
 - ChinaIdCardPrefixMap : 中国身份证开头与城市对应表
 
 ```java
-import ChinaIdCardPrefixMap;
+import io.github.lzx2005.constants.ChinaIdCardPrefixMap;
 
 String city = ChinaIdCardPrefixMap.getProvinceCityByCode("310000");
 System.out.println(city);
@@ -58,7 +67,7 @@ System.out.println(city);
 
 
 ```java
-import MathExpressionCalculator;
+import io.github.lzx2005.math.MathExpressionCalculator;
 
 String exp = "a^b";
 HashMap<String, Double> map = new HashMap<>();
