@@ -7,6 +7,15 @@
 
 本项目尽量避免重复造轮子，同时也会整合部分轮子为我所用，简化使用。
 
+## GetStarted
+
+```xml
+<dependency>
+    <groupId>io.github.lzx2005</groupId>
+    <artifactId>commons-tools</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+</dependency>
+```
 
 ## todos
 
