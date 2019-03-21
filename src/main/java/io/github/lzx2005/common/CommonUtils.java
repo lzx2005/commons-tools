@@ -7,5 +7,4 @@ public class CommonUtils {
         array[x] = array[y];
         array[y] = temp;
     }
-
 }

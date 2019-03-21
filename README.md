@@ -32,10 +32,23 @@
 目前已完成的功能如下：
 
 #### 常规功能包
-- CommonUtils : 快速调用包，包括调换数组中的数字等
+- io.github.lzx2005.common.CommonUtils : 快速调用包，包括调换数组中的数字等
+
+
+```java
+import io.github.lzx2005.common.CommonUtils;
+
+Integer[] array = {1, 2, 3};
+CommonUtils.swap(array, 0, 2);
+for (Integer i : array) {
+    System.out.print(i + " ");
+}
+
+--> 3 2 1
+```
 
 #### 字符串相关
-- StringUtilsExt : 多字符串判断空
+- io.github.lzx2005.string.StringUtilsExt : 多字符串判断空
 
 ```java
 import io.github.lzx2005.string.StringUtilsExt;
@@ -46,8 +59,22 @@ System.out.println(hasEmpty);
 --> true
 ```
 
+#### 服务返回中间类
+
+- io.github.lzx2005.dto.ServiceResult 服务返回类
+
+```java
+import io.github.lzx2005.dto.ServiceResult;
+
+ServiceResult.builder()
+            .code(200)
+            .msg("成功")
+            .data(hashMap)
+            .build();
+```
+
 #### 常用枚举
-- BrowserType : User-Agent中浏览器对应的中文名枚举
+- io.github.lzx2005.constants.BrowserType : User-Agent中浏览器对应的中文名枚举
 
 ```java
 import io.github.lzx2005.constants.BrowserType;
@@ -59,7 +86,7 @@ System.out.println(browserType.getName());
 ```
 
 
-- ChinaIdCardPrefixMap : 中国身份证开头与城市对应表
+- io.github.lzx2005.constants.ChinaIdCardPrefixMap : 中国身份证开头与城市对应表
 
 ```java
 import io.github.lzx2005.constants.ChinaIdCardPrefixMap;
@@ -71,8 +98,8 @@ System.out.println(city);
 ```
 
 #### 数字数学相关
-- ConvertRadix : 10位数字与N位数字互相转换工具
-- MathExpressionCalculator : 根据字符串公式表达式计算值 
+- io.github.lzx2005.math.ConvertRadix : 10位数字与N位数字互相转换工具
+- io.github.lzx2005.math.MathExpressionCalculator : 根据字符串公式表达式计算值 
 
 
 ```java
@@ -90,4 +117,4 @@ System.out.println(exp + " = " + evaluate);
 [MathExpressionCalculator完整使用文档](https://github.com/lzx2005/commons-tools/blob/master/docs/MathExpressionCalculator.md)
 
 #### 接口调用相关
-- TaobaoIpQueryer : 快速调用淘宝IP地理位置查询API
+- io.github.lzx2005.apicaller.TaobaoIpQueryer : 快速调用淘宝IP地理位置查询API
