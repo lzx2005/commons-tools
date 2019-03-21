@@ -13,7 +13,7 @@
 <dependency>
     <groupId>io.github.lzx2005</groupId>
     <artifactId>commons-tools</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.1-SNAPSHOT</version>
 </dependency>
 ```
 
