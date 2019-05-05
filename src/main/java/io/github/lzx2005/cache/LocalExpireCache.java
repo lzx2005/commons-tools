@@ -1,4 +1,4 @@
-package com.lzx2005.cache;
+package io.github.lzx2005.cache;
 
 import java.time.LocalDateTime;
 import java.time.ZoneId;
