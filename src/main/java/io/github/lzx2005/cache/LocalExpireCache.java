@@ -5,6 +5,11 @@ import java.time.ZoneId;
 import java.util.Date;
 import java.util.concurrent.ConcurrentHashMap;
 
+/**
+ * 本地缓存，带过期时间
+ * @param <K>   key值
+ * @param <V>   value值
+ */
 public class LocalExpireCache<K, V> {
 
     private ConcurrentHashMap<K, ExpireObject> data;
