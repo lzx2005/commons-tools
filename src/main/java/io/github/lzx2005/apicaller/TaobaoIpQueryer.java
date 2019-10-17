@@ -19,6 +19,11 @@ public class TaobaoIpQueryer {
     private static final Logger logger = LoggerFactory.getLogger(TaobaoIpQueryer.class);
     private static final String TAOBAO_HOST ="http://ip.taobao.com/service/getIpInfo.php?ip=";
 
+    /**
+     * 请求IP地址
+     * @param ip    IP地址
+     * @return      IP信息
+     */
     public JSONObject getIpInfo(String ip) {
         CloseableHttpClient client = HttpClientBuilder.create().build();
         HttpGet httpGet = new HttpGet(TAOBAO_HOST + ip);
